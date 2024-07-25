@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Welcome</title>
-    <url>/2024/07/16/hello-world/</url>
-    <content><![CDATA[<h1 id="欢迎来到航哥的部落格"><a href="#欢迎来到航哥的部落格" class="headerlink" title="欢迎来到航哥的部落格"></a>欢迎来到航哥的部落格</h1>]]></content>
-  </entry>
-  <entry>
     <title>github配置ssh密钥出现Connection closed by remote host Connection closed by 20.205.243.166 port 22</title>
     <url>/2024/07/23/github%E9%85%8D%E7%BD%AEssh%E5%AF%86%E9%92%A5/</url>
     <content><![CDATA[<p>本文参考<a href="https://docs.github.com/zh/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account">github官方教程</a> 在本人macos上执行，其他系统类似，可以<strong>参照文档略作调整</strong></p>
-<h3 id="如果出现-Connection-closed-by-remote-host-Connection-closed-by-20-205-243-166-port-22"><a href="#如果出现-Connection-closed-by-remote-host-Connection-closed-by-20-205-243-166-port-22" class="headerlink" title="如果出现 Connection closed by remote host Connection closed by 20.205.243.166 port 22"></a>如果出现 Connection closed by remote host Connection closed by 20.205.243.166 port 22</h3><p>这种情况大多是因为地址被劫持了，针对国内用户，应该只有一个原因：<br><strong>孩子，请关闭VPN</strong></p>
+<h3 id="如果出现-Connection-closed-by-remote-host-Connection-closed-by-20-205-243-166-port-22"><a href="#如果出现-Connection-closed-by-remote-host-Connection-closed-by-20-205-243-166-port-22" class="headerlink" title="如果出现 Connection closed by remote host Connection closed by 20.205.243.166 port 22"></a>如果出现 Connection closed by remote host Connection closed by 20.205.243.166 port 22</h3><p>这种情况大多是因为地址被劫持了，针对国内用户，应该只有一个原因：<br><strong>孩子，请关闭VPN</strong><br>如果你想要一劳永逸，那么可以在你用的<strong>那种软件</strong>的规则中，将这一ip设置成直连</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">- &#x27;IP-CIDR,20.205.243.166,DIRECT&#x27;</span><br></pre></td></tr></table></figure>
+<p><img src="https://github.com/1ightman/picx-images-hosting/raw/master/721721876333_.pic.6ik6u00nko.webp%22%E6%95%88%E6%9E%9C%E5%9B%BE%22" alt="效果图"></p>
 ]]></content>
   </entry>
   <entry>
@@ -78,5 +75,10 @@ fastboot reboot(重启，然后用手机配对即可)
       <tags>
         <tag>操作系统 扫盲</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>Welcome</title>
+    <url>/2024/07/16/hello-world/</url>
+    <content><![CDATA[<h1 id="欢迎来到航哥的部落格"><a href="#欢迎来到航哥的部落格" class="headerlink" title="欢迎来到航哥的部落格"></a>欢迎来到航哥的部落格</h1>]]></content>
   </entry>
 </search>

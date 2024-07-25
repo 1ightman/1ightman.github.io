@@ -1,153 +1,246 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-    <meta charset="utf-8">
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222"><meta name="generator" content="Hexo 7.3.0">
 
-    
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
 
-    <!-- 渲染优化 -->
-    <meta name="renderer" content="webkit">
-    <meta name="force-rendering" content="webkit">
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
-    <meta name="HandheldFriendly" content="True" >
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-    <!--icon-->
-
-    
-    
-    
-    
-    
-
-
-    <!-- meta -->
-
-
-<title>扫盲桌面操作系统 | 航哥的部落格</title>
-
-
-    <meta name="keywords" content="操作系统 扫盲">
+<link rel="stylesheet" href="/css/main.css">
 
 
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha256-XOqroi11tY4EFQMR9ZYwZWKj5ZXiftSx36RRuC3anlA=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
 
-    <!-- OpenGraph -->
- 
-    <meta name="description" content="今天我们主要讲讲生活中常见的操作系统，希望能让你了解一些除Windows以外的操作系统，并且能做出自己的选择 ：）本文所有操作系统特指桌面端 P1 Windows从安全性的角度上说，本文【不推荐】此系统，甚至不想写。但是由于windows系统比较广泛，所以简单写一些。我认为，Windows系统【不推荐】的原因主要有如下几点 糟糕的开发团队事实上我对系统开发并不了解，但是根据一些现有消息和个人的体验">
+<script class="next-config" data-name="main" type="application/json">{"hostname":"1ightman.github.io","root":"/","images":"/images","scheme":"Muse","darkmode":false,"version":"8.20.0","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"hljswrap":true,"copycode":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":"ture","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
+
+    <meta name="description" content="今天我们主要讲讲生活中常见的操作系统，希望能让你了解一些除Windows以外的操作系统，并且能做出自己的选择 ：）温馨提示：每次关于操作系统的讨论都会引发口诛笔伐，本文只表达自己的观点，希望大家理性阅读，独立思考，文明上网（doge）本文所有操作系统特指桌面端 P1 Windows从安全性的角度上说，本文【不推荐】此系统，甚至不想写。但是由于windows系统比较广泛，所以简单写一些。我认为，Wi">
 <meta property="og:type" content="article">
 <meta property="og:title" content="扫盲桌面操作系统">
 <meta property="og:url" content="https://1ightman.github.io/2024/07/21/%E6%89%AB%E7%9B%B2%E6%A1%8C%E9%9D%A2%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/index.html">
 <meta property="og:site_name" content="航哥的部落格">
-<meta property="og:description" content="今天我们主要讲讲生活中常见的操作系统，希望能让你了解一些除Windows以外的操作系统，并且能做出自己的选择 ：）本文所有操作系统特指桌面端 P1 Windows从安全性的角度上说，本文【不推荐】此系统，甚至不想写。但是由于windows系统比较广泛，所以简单写一些。我认为，Windows系统【不推荐】的原因主要有如下几点 糟糕的开发团队事实上我对系统开发并不了解，但是根据一些现有消息和个人的体验">
-<meta property="og:locale" content="en_US">
+<meta property="og:description" content="今天我们主要讲讲生活中常见的操作系统，希望能让你了解一些除Windows以外的操作系统，并且能做出自己的选择 ：）温馨提示：每次关于操作系统的讨论都会引发口诛笔伐，本文只表达自己的观点，希望大家理性阅读，独立思考，文明上网（doge）本文所有操作系统特指桌面端 P1 Windows从安全性的角度上说，本文【不推荐】此系统，甚至不想写。但是由于windows系统比较广泛，所以简单写一些。我认为，Wi">
+<meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2024-07-22T00:48:56.000Z">
-<meta property="article:modified_time" content="2024-07-22T01:54:41.474Z">
+<meta property="article:modified_time" content="2024-07-25T02:47:00.352Z">
 <meta property="article:author" content="航哥">
 <meta property="article:tag" content="操作系统 扫盲">
-<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:card" content="summary">
 
 
-    
-<link rel="stylesheet" href="/css/style/main.css">
- 
+<link rel="canonical" href="https://1ightman.github.io/2024/07/21/%E6%89%AB%E7%9B%B2%E6%A1%8C%E9%9D%A2%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/">
 
-    
-    
-    
 
-    
 
-     
-    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
- 
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://1ightman.github.io/2024/07/21/%E6%89%AB%E7%9B%B2%E6%A1%8C%E9%9D%A2%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/","path":"2024/07/21/扫盲桌面操作系统/","title":"扫盲桌面操作系统"}</script>
 
-    <!-- custom head -->
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>扫盲桌面操作系统 | 航哥的部落格</title>
+  
 
-<meta name="generator" content="Hexo 7.3.0"></head>
 
-    <body>
-        <div id="app" tabindex="-1">
-            <header class="header">
-    <div class="header__left">
-        <a href="/" class="button">
-            <span class="logo__text">1ightman的部落格</span>
-        </a>
+
+
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <div class="column">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
     </div>
-    <div class="header__right">
-        
-            <div class="navbar__menus">
-                
-                    <a href="/" class="navbar-menu button">首页</a>
-                
-                    <a href="/tags/" class="navbar-menu button">标签</a>
-                
-                    <a href="/archives/" class="navbar-menu button">归档</a>
-                
-                    <a href="/about/" class="navbar-menu button">关于</a>
-                
-            </div>
-        
-        
-        
+  </div>
 
-        
-        
+  <div class="site-meta">
 
-        
-            <a class="dropdown-icon button" id="btn-dropdown" tabindex="0"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width='24' height='24' fill="none" stroke="currentColor" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round"><path fill="currentColor" d="M3.314,4.8h13.372c0.41,0,0.743-0.333,0.743-0.743c0-0.41-0.333-0.743-0.743-0.743H3.314c-0.41,0-0.743,0.333-0.743,0.743C2.571,4.467,2.904,4.8,3.314,4.8z M16.686,15.2H3.314c-0.41,0-0.743,0.333-0.743,0.743s0.333,0.743,0.743,0.743h13.372c0.41,0,0.743-0.333,0.743-0.743S17.096,15.2,16.686,15.2z M16.686,9.257H3.314c-0.41,0-0.743,0.333-0.743,0.743s0.333,0.743,0.743,0.743h13.372c0.41,0,0.743-0.333,0.743-0.743S17.096,9.257,16.686,9.257z"></path></svg></a>
-            <div class="dropdown-menus" id="dropdown-menus">
-                
-                    <a href="/" class="dropdown-menu button">首页</a>
-                
-                    <a href="/tags/" class="dropdown-menu button">标签</a>
-                
-                    <a href="/archives/" class="dropdown-menu button">归档</a>
-                
-                    <a href="/about/" class="dropdown-menu button">关于</a>
-                
-            </div>
-        
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">航哥的部落格</p>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">航哥的部落格</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger" aria-label="搜索" role="button">
+        <i class="fa fa-search fa-fw fa-lg"></i>
     </div>
-</header>
-
-
-            <main class="main">
-    
-
-<div class="post-title">
-    <h1 class="post-title__text">
-        扫盲桌面操作系统
-    </h1>
-    <div class="post-title__meta">
-        <a href="/archives/2024/07/" class="post-meta__date button">2024-07-21</a>
-        
- 
-        
-    
-     
-    <span id="busuanzi_container_page_pv" hidden>
-        <span class="separate-dot"></span>
-        <span></span>
-        <span id="busuanzi_value_page_pv"></span>
-        <span>Views</span>
-    </span>
-
-
-
- 
-
- 
-    </div>
+  </div>
 </div>
 
 
 
-<article class="post content-card">
-    <div class="post__header"></div>
-    <div class="post__content">
-        <h1 id=""><a href="#" class="headerlink" title=""></a></h1><p>今天我们主要讲讲生活中常见的操作系统，希望能让你了解一些除Windows以外的操作系统，并且能做出自己的选择 ：）<br><strong>本文所有操作系统特指桌面端</strong></p>
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a></li><li class="menu-item menu-item-sitemap"><a href="/sitemap.xml" rel="section"><i class="fa fa-sitemap fa-fw"></i>站点地图</a></li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+      <div class="search-header">
+        <span class="search-icon">
+          <i class="fa fa-search"></i>
+        </span>
+        <div class="search-input-container">
+          <input autocomplete="off" autocapitalize="off" maxlength="80"
+                placeholder="搜索..." spellcheck="false"
+                type="search" class="search-input">
+        </div>
+        <span class="popup-btn-close" role="button">
+          <i class="fa fa-times-circle"></i>
+        </span>
+      </div>
+      <div class="search-result-container">
+        <div class="search-result-icon">
+          <i class="fa fa-spinner fa-pulse fa-5x"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</header>
+        
+  
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#P1-Windows"><span class="nav-number">1.</span> <span class="nav-text">P1 Windows</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%B3%9F%E7%B3%95%E7%9A%84%E5%BC%80%E5%8F%91%E5%9B%A2%E9%98%9F"><span class="nav-number">1.1.</span> <span class="nav-text">糟糕的开发团队</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%A0%91%E5%A4%A7%E6%8B%9B%E9%A3%8E-%E8%87%AA%E8%BA%AB%E6%BC%8F%E6%B4%9E"><span class="nav-number">1.2.</span> <span class="nav-text">树大招风+自身漏洞</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%80%E4%BA%9B%E5%A6%A5%E5%8D%8F%E7%9A%84%E5%BB%BA%E8%AE%AE"><span class="nav-number">1.3.</span> <span class="nav-text">一些妥协的建议</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#P2-Linux"><span class="nav-number">2.</span> <span class="nav-text">P2 Linux</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Linux%E7%9A%84%E4%BC%98%E7%82%B9%E5%A6%82%E4%B8%8B"><span class="nav-number">2.1.</span> <span class="nav-text">Linux的优点如下</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%8E%A8%E8%8D%90%E5%87%A0%E4%B8%AAlinux%E5%8F%91%E8%A1%8C%E7%89%88"><span class="nav-number">2.2.</span> <span class="nav-text">推荐几个linux发行版</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#P3-MacOS"><span class="nav-number">3.</span> <span class="nav-text">P3 MacOS</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%93%8D%E4%BD%9C%E9%80%BB%E8%BE%91%E4%B8%8D%E4%B9%A0%E6%83%AF%EF%BC%9F"><span class="nav-number">3.1.</span> <span class="nav-text">操作逻辑不习惯？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#macOS%E8%BD%AF%E4%BB%B6%E7%9C%9F%E7%9A%84%E5%B0%91%E4%B9%88%EF%BC%9F"><span class="nav-number">3.2.</span> <span class="nav-text">macOS软件真的少么？</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%A6%82%E6%9E%9C%E6%98%AF%E7%8B%AC%E7%AB%8B%E5%BC%80%E5%8F%91%E8%80%85%E5%81%9A%E7%9A%84%E5%B0%8F%E5%B7%A5%E5%85%B7"><span class="nav-number">3.2.1.</span> <span class="nav-text">如果是独立开发者做的小工具</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%BD%AF%E4%BB%B6%E6%9D%A5%E6%BA%90"><span class="nav-number">3.2.2.</span> <span class="nav-text">软件来源</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%B1%80%E9%99%90%E6%80%A7"><span class="nav-number">3.2.3.</span> <span class="nav-text">局限性</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%A6%82%E6%9E%9C%E4%BD%A0%E6%83%B3%E8%A6%81%E6%9B%B4%E6%8D%A2%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E4%BA%86"><span class="nav-number">3.3.</span> <span class="nav-text">如果你想要更换操作系统了</span></a></li></ol></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">航哥</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">5</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-tags">
+        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-name">标签</span>
+      </div>
+  </nav>
+</div>
+
+        </div>
+      </div>
+    </div>
+
+    
+  </aside>
+
+
+    </div>
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://1ightman.github.io/2024/07/21/%E6%89%AB%E7%9B%B2%E6%A1%8C%E9%9D%A2%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="航哥">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="航哥的部落格">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="扫盲桌面操作系统 | 航哥的部落格">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          扫盲桌面操作系统
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2024-07-21 17:48:56" itemprop="dateCreated datePublished" datetime="2024-07-21T17:48:56-07:00">2024-07-21</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2024-07-24 19:47:00" itemprop="dateModified" datetime="2024-07-24T19:47:00-07:00">2024-07-24</time>
+    </span>
+
+  
+    <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv">
+      <span class="post-meta-item-icon">
+        <i class="far fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">阅读次数：</span>
+      <span id="busuanzi_value_page_pv"></span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody"><p>今天我们主要讲讲生活中常见的操作系统，希望能让你了解一些除Windows以外的操作系统，并且能做出自己的选择 ：）<br><strong>温馨提示：</strong>每次关于操作系统的讨论都会引发口诛笔伐，本文只表达自己的观点，希望大家理性阅读，独立思考，文明上网（doge）<br><strong>本文所有操作系统特指桌面端</strong></p>
 <h1 id="P1-Windows"><a href="#P1-Windows" class="headerlink" title="P1 Windows"></a>P1 Windows</h1><p>从安全性的角度上说，本文【不推荐】此系统，甚至不想写。但是由于windows系统比较广泛，所以简单写一些。<br>我认为，Windows系统【不推荐】的原因主要有如下几点</p>
 <h2 id="糟糕的开发团队"><a href="#糟糕的开发团队" class="headerlink" title="糟糕的开发团队"></a>糟糕的开发团队</h2><p>事实上我对系统开发并不了解，但是根据一些现有消息和个人的体验，还是有一些内容可说<br>1.Windows开发团队近几年被削减的很严重，微软已经把营销的重点放在了搞钱上，系统的开发已经非常混乱。<br>2.由多个团队开发，彼此之间根本没有协调性<br>3.祖传代码，架构老，每次都是在原基础上修修补补，bug自然是不用说</p>
 <h2 id="树大招风-自身漏洞"><a href="#树大招风-自身漏洞" class="headerlink" title="树大招风+自身漏洞"></a>树大招风+自身漏洞</h2><p>1.用户量多，所以定制的病毒自然多，毕竟是重点攻击对象<br>2.没有像linux一样完善的文件权限，比如我就干过把exe伪装成图片的事……<br>3.臭名昭著的ie以及<a target="_blank" rel="noopener" href="https://learn.microsoft.com/en-us/security-updates/acknowledgments/2017/acknowledgments2017">很多漏洞</a></p>
@@ -158,136 +251,124 @@
 <p>archlinux（可以原版，也可以manjaro等等，安装稍有难度，不过有图形化安装界面）archlinux的个性化程度比较强，有点像<strong>毛坯房</strong>，初次上手有难度</p>
 <p>ubuntu （在Linux中人数较多，不过有些商业化，出现过一些丑闻）不过好处是几乎可以<strong>拎包入住</strong></p>
 <p>Debian 稳定经典，本人用得少，所以不过多评论</p>
+<h1 id="P3-MacOS"><a href="#P3-MacOS" class="headerlink" title="P3 MacOS"></a>P3 MacOS</h1><p>我认为macOS介于win和Linux之间<br>一方面它并不开源，所以有很多上文提到的安全问题<br>另一方面，它作为一个unix系统，有和Linux<strong>类似</strong>的操作逻辑<br>所以，如果你不喜欢win的设计，但是又觉得Linux入手难度过大，可以试试macOS——一个不错的折中之选。<br>接下来我想讲讲使用macOS时可能出现的一些问题</p>
+<h2 id="操作逻辑不习惯？"><a href="#操作逻辑不习惯？" class="headerlink" title="操作逻辑不习惯？"></a>操作逻辑不习惯？</h2><p>萝卜青菜各有所爱，不过<strong>请保持开放客观勇于尝试的心态</strong>，世界上不是只有windows一种系统，也没有最好的系统，就我个人而言，macOS的操作逻辑、ui设计都是很统一，很流畅的，甚至用久了之后会对Windows产生排斥，所以如果你没尝试过macOS，但又对macOS有兴趣，那么不妨试试！</p>
+<h2 id="macOS软件真的少么？"><a href="#macOS软件真的少么？" class="headerlink" title="macOS软件真的少么？"></a>macOS软件真的少么？</h2><p>其实不然，说这话的人<strong>大多都没有长时间使用过macOS</strong>，我用mac的时间也不短了，基本可以说：除了游戏，大部分软件macOS都有适配</p>
+<h3 id="如果是独立开发者做的小工具"><a href="#如果是独立开发者做的小工具" class="headerlink" title="如果是独立开发者做的小工具"></a>如果是独立开发者做的小工具</h3><p>这种大部分都直接打包成了exe，不过只要做一个虚拟机就ok</p>
+<h3 id="软件来源"><a href="#软件来源" class="headerlink" title="软件来源"></a>软件来源</h3><p>1.直接App Store（基本安全，不大推荐，一些软件的App Store版本存在功能阉割问题）<br>2.网上搜索 格式：<strong>软件名称 for mac</strong> (最好下载官网版，或者一些不错的第三方平台，可能会出现安全问题，不过极其罕见)<br>3.homebrew等 （自行研究，不多做讨论）</p>
+<h3 id="局限性"><a href="#局限性" class="headerlink" title="局限性"></a>局限性</h3><p>1.macOS系统不收费，但是需要使用苹果设备（不太推荐黑苹果，稳定性是个潜在风险）<br>2.macOS系统只接受官方更新，版本相对单一，相比之下没有Linux安全 不过据我所知问题不大</p>
+<h2 id="如果你想要更换操作系统了"><a href="#如果你想要更换操作系统了" class="headerlink" title="如果你想要更换操作系统了"></a>如果你想要更换操作系统了</h2><p>如果你想换操作系统了，恭喜你勇于做出改变，不过有一些重要建议不得不说<br>（按照建议程度和优先级排序）<br>1.建议用另外一台设备尝试，逐渐迁移系统，切记<strong>不要直接格式化电脑</strong>，否则cookie，软件什么的都丢了很麻烦；另外如果系统崩溃就更恶心了<br>2.做好系统备份<br>（重点表扬macOS的Time Machine！）<br>3.心理预期<br>新系统肯定有上手难度，慢慢来别着急<br>4.保证生产力<br>系统要为生产力服务，如果Linux和macos无法保证生产力，那么可以留一台windows系统<br>比如专门准备一台游戏用的win电脑</p>
 
     </div>
-     
-    <div class="post-footer__meta"><p>updated at 2024-07-21</p></div> 
-    <div class="post-entry__tags"><a href="/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F-%E6%89%AB%E7%9B%B2/" class="post-tags__link button"># 操作系统 扫盲</a></div> 
-</article>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F-%E6%89%AB%E7%9B%B2/" rel="tag"># 操作系统 扫盲</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2024/07/20/%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BD%A0%E5%BA%94%E8%AF%A5%E5%B0%91%E7%94%A8%E5%BE%AE%E4%BF%A1%E2%80%94%E2%80%94%E6%B5%85%E8%B0%88%E8%B6%85%E7%BA%A7%E5%BA%94%E7%94%A8/" rel="prev" title="为什么你应该少用微信——浅谈超级应用">
+                  <i class="fa fa-angle-left"></i> 为什么你应该少用微信——浅谈超级应用
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/2024/07/23/github%E9%85%8D%E7%BD%AEssh%E5%AF%86%E9%92%A5/" rel="next" title="github配置ssh密钥出现Connection closed by remote host Connection closed by 20.205.243.166 port 22">
+                  github配置ssh密钥出现Connection closed by remote host Connection closed by 20.205.243.166 port 22 <i class="fa fa-angle-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
 
 
-    <div class="nav">
-        <div class="nav__prev">
-            
-                <a href="/2024/07/23/github%E9%85%8D%E7%BD%AEssh%E5%AF%86%E9%92%A5/" class="nav__link">
-                    <div>
-                        <svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path d="M589.088 790.624L310.464 512l278.624-278.624 45.248 45.248L400.96 512l233.376 233.376z" fill="#808080"></path></svg>
-                    </div>
-                    <div>
-                        <div class="nav__label">
-                            Previous Post
-                        </div>
-                        <div class="nav__title">
-                            github配置ssh密钥
-                        </div>
-                    </div>
-                </a>
-            
-        </div>
-        <div class="nav__next">
-            
-                <a href="/2024/07/20/%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BD%A0%E5%BA%94%E8%AF%A5%E5%B0%91%E7%94%A8%E5%BE%AE%E4%BF%A1%E2%80%94%E2%80%94%E6%B5%85%E8%B0%88%E8%B6%85%E7%BA%A7%E5%BA%94%E7%94%A8/" class="nav__link">
-                    <div>
-                        <div class="nav__label">
-                            Next Post
-                        </div>
-                        <div class="nav__title">
-                            为什么你应该少用微信——浅谈超级应用
-                        </div>
-                    </div>
-                    <div>
-                        <svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path d="M434.944 790.624l-45.248-45.248L623.04 512l-233.376-233.376 45.248-45.248L713.568 512z" fill="#808080"></path></svg>
-                    </div>
-                </a>
-            
-        </div>
+
+
+
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+  <div class="copyright">
+    &copy; 
+    <span itemprop="copyrightYear">2024</span>
+    <span class="with-love">
+      <i class="fa fa-heart"></i>
+    </span>
+    <span class="author" itemprop="copyrightHolder">航哥</span>
+  </div>
+<div class="busuanzi-count">
+    <span class="post-meta-item" id="busuanzi_container_site_uv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="总访客量">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="总访问量">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/muse/" rel="noopener" target="_blank">NexT.Muse</a> 强力驱动
+  </div>
+
     </div>
+  </footer>
+
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+  <div class="sidebar-dimmer"></div>
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up fa-lg"></i>
+    <span>0%</span>
+  </div>
+
+  <a href="https://github.com/1ightman" class="github-corner" title="在 GitHub 上关注我" aria-label="在 GitHub 上关注我" rel="noopener" target="_blank"><svg width="80" height="80" viewBox="0 0 250 250" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/sidebar.js"></script><script src="/js/next-boot.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-generator-searchdb/1.4.1/search.js" integrity="sha256-1kfA5uHPf65M5cphT2dvymhkuyHPQp5A53EGZOnOLmc=" crossorigin="anonymous"></script>
+<script src="/js/third-party/search/local-search.js"></script>
 
 
 
 
 
-</main>
-
-            <footer class="footer">
-    
-    
 
 
-    
-    
-    
-        <span id="busuanzi_container_site_uv" hidden>
-            <span></span>
-            <span id="busuanzi_value_site_uv"></span>
-            <span>Viewers</span>
-            
-                <span>&amp;nbsp;&amp;nbsp;&amp;nbsp;|</span>
-            
-        </span>
-    
-    
-        <span id="busuanzi_container_site_pv" hidden>
-            <span></span>
-            <span id="busuanzi_value_site_pv"></span>
-            <span>Views</span>
-            
-        </span>
-    
- 
- 
-
- 
-    
-        
-        <p class="footer-copyright">
-            Copyright © 2024 <a href="/">航哥的部落格</a>
-        </p>
-    
-    
-        
-            <p>追求简单 追求完美</p>
-
-        
-    
-    <p>Powered by <a href="https://hexo.io" target="_blank">Hexo</a> | Theme - <a href="https://github.com/ChrAlpha/hexo-theme-cards" target="_blank">Cards</a></p>
-</footer>
-
-        </div>
-         
-
- 
-
- 
-
- 
-
- 
-
-
-
- 
-
-
-
- 
-
-
-    
- 
-
- 
-
- 
-
- 
-
- 
-
- 
+  
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
 
 
 
-    </body>
+
+</body>
 </html>
